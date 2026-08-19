@@ -1,0 +1,9 @@
+name: astrbot_plugin_arknights_dle
+desc: 明日方舟猜干员小游戏 (类似 Friberg)
+help: |
+  /猜干员 或 /arkdle - 开启一局新游戏
+  /guess <干员名> 或 直接发送干员名 - 猜测干员
+  /giveup 或 /放弃 - 结束本局并查看答案
+version: 3.2.5
+author: isomer
+repo: 

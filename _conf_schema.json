@@ -1,0 +1,51 @@
+{
+  "auto_timeout_seconds": {
+    "description": "超时自动结束时间（秒）",
+    "type": "int",
+    "hint": "玩家长时间无操作时自动认输。设为 0 表示不限时。",
+    "default": 300
+  },
+  "max_guesses": {
+    "description": "最大猜测次数",
+    "type": "int",
+    "hint": "每次游戏最多可以猜几次。用完即认输。",
+    "default": 8
+  },
+  "atk_red_threshold": {
+    "description": "攻击力差异红色警告阈值",
+    "type": "int",
+    "hint": "当猜测干员与目标干员的攻击力差距超过此值时，显示红色而非橙色。",
+    "default": 500
+  },
+  "star_6_probability": {
+    "description": "6星干员出现概率（%）",
+    "type": "int",
+    "hint": "目标干员为6星的百分比概率。",
+    "default": 50
+  },
+  "star_5_probability": {
+    "description": "5星干员出现概率（%）",
+    "type": "int",
+    "hint": "目标干员为5星的百分比概率。剩余概率分配给其他星级。",
+    "default": 35
+  },
+  "custom_bg_image": {
+    "description": "自定义背景图片",
+    "type": "file",
+    "hint": "点击上传背景图。留空则使用纯色背景。",
+    "default": [],
+    "file_types": ["png", "jpg", "jpeg", "webp"]
+  },
+  "bg_opacity": {
+    "description": "背景图片不透明度（0.0~1.0）",
+    "type": "float",
+    "hint": "0.0 = 完全透明，1.0 = 完全不透明。推荐 0.3 ~ 0.6",
+    "default": 0.5
+  },
+  "hidden_columns": {
+    "description": "隐藏不想显示的比对列",
+    "type": "list",
+    "hint": "点击加号添加你想隐藏的列。可选：年份、法抗、费用、阵营 等",
+    "default": []
+  }
+}
