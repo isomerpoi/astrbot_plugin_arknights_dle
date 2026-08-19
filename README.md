@@ -5,9 +5,6 @@
 
 基于 [AstrBot](https://github.com/Soulter/AstrBot) 框架开发的**明日方舟干员竞猜小游戏 (Arknights Wordle/Loldle)**。
 通过极致的“罗德岛战术终端”风格图片渲染，为你和群友提供沉浸式的硬核数据推理体验。
-
-> 💡 **建议在这里放一张生成的精美游戏截图 (例如 `screenshot.png`)，展示你的科技风底图和绿色红色数据网格。**
-
 ---
 
 ## ✨ 核心特性
