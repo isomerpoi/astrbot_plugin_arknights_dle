@@ -1,9 +1,12 @@
 name: astrbot_plugin_arknights_dle
-desc: 明日方舟猜干员小游戏 (类似 Friberg)
-help: |
-  /猜干员 或 /arkdle - 开启一局新游戏
-  /guess <干员名> 或 直接发送干员名 - 猜测干员
-  /giveup 或 /放弃 - 结束本局并查看答案
+display_name: 明日方舟干员竞猜(舟兜)
+desc: |
+  基于 AstrBot 框架开发的明日方舟干员竞猜小游戏 (Arknights Wordle/Loldle)。
+  通过极致的“罗德岛战术终端”风格图片渲染，为你和群友提供沉浸式的硬核数据推理体验。
+  支持自定义背景底图、隐藏指定列、自动抓取头像、智能防连抽发牌等高级特性。
 version: 3.2.5
-author: isomer
-repo: 
+author: isomerpoi
+repo: https://github.com/isomerpoi/astrbot_plugin_arknights_dle
+tags:
+  - game
+  - arknights
